@@ -15,4 +15,9 @@ node {
     stage('deploy to qa'){
         echo "deploying"
     }
+note {
+    stage('deploy to prod'){
+        echo "deploying to PROD"
+    }
+}
 }
